@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:weightSum="1">
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_gravity="top" android:fillViewport="true"
+		android:layout_height="416dp" android:layout_weight="1.07">
+		<HorizontalScrollView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:fillViewport="true">
+			<ImageView android:id="@+id/pimg" android:layout_width="fill_parent"
+				android:layout_height="fill_parent" android:scaleType="center">
+			</ImageView>
+		</HorizontalScrollView>
+	</ScrollView>
+	<Button android:layout_height="wrap_content" android:id="@+id/copyc"
+		android:layout_width="fill_parent" android:layout_gravity="center"
+		android:text="Copy Image Link to Clipboard">
+	</Button>
+</LinearLayout>
